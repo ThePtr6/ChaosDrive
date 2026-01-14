@@ -1,0 +1,186 @@
+.panel {
+    background-color: rgba(32, 32, 32, 0);
+    -unity-background-scale-mode: scale-and-crop;
+    align-self: center;
+    align-content: auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transform-origin: center;
+}
+
+.ButtonNextPrevious {
+    align-items: center;
+    -unity-text-align: middle-center;
+    transform-origin: center;
+    width: 70px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 800%;
+    -unity-font-style: bold;
+    justify-content: center;
+    align-self: auto;
+    align-content: center;
+    background-color: rgba(156, 156, 156, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-size: 50% 50%;
+    white-space: nowrap;
+    text-overflow: clip;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+}
+
+.ButtonNextPrevious:active {
+    align-items: center;
+    -unity-text-align: middle-center;
+    transform-origin: center;
+    width: 70px;
+    height: 100px;
+    color: rgb(75, 75, 75);
+    font-size: 800%;
+    -unity-font-style: bold;
+    justify-content: center;
+    align-self: auto;
+    align-content: center;
+    background-color: rgba(156, 156, 156, 0);
+    border-left-color: rgb(255, 0, 0);
+    border-right-color: rgb(255, 0, 0);
+    border-top-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-image: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-size: 50% 50%;
+    white-space: nowrap;
+    text-overflow: clip;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+}
+
+.buttonGroup {
+    background-size: 50px 100px;
+    width: 250px;
+    height: 100px;
+    margin-right: 46px;
+    margin-left: 46px;
+    -unity-font-style: bold;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+    font-size: 50px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.buttonGroup:selected {
+    background-size: 50px 100px;
+    width: 250px;
+    height: 100px;
+    margin-right: 46px;
+    margin-left: 46px;
+    -unity-font-style: bold;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+    font-size: 50px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    background-color: rgba(255, 0, 0, 0.97);
+}
+
+.buttonBuy {
+    font-size: 50px;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+    -unity-font-style: bold;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    align-self: center;
+    height: 25%;
+    align-content: center;
+    top: auto;
+    background-color: rgb(86, 94, 112);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left-color: rgb(31, 31, 31);
+    border-right-color: rgb(31, 31, 31);
+    border-top-color: rgb(31, 31, 31);
+    border-bottom-color: rgb(31, 31, 31);
+}
+
+.buttonBuy:active {
+    font-size: 50px;
+    -unity-font-definition: resource('NWH/Fonts/Inconsolata/Inconsolata-Bold');
+    -unity-font-style: bold;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    align-self: center;
+    height: 25%;
+    align-content: center;
+    top: -30%;
+    background-color: rgb(89, 89, 89);
+    border-top-width: 8px;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-left-width: 8px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left-color: rgb(31, 31, 31);
+    border-right-color: rgb(31, 31, 31);
+    border-top-color: rgb(31, 31, 31);
+    border-bottom-color: rgb(31, 31, 31);
+}
+
+.ButtonColor {
+    background-color: rgb(86, 94, 112);
+}
+
+.ButtonColor:active {
+    background-color: rgb(57, 62, 75);
+}
+
+.ButtonUpgrade {
+    background-color: rgb(176, 176, 176);
+}
+
+.ButtonUpgrade:active {
+    background-color: rgb(89, 89, 89);
+}
+
+.ButtonSelectColorCar {
+    width: 10%;
+    height: 30%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

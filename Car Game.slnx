@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Project Path="NWH.VehiclePhysics2.csproj" />
+  <Project Path="NWH.WheelController.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="NWH.Common.csproj" />
+  <Project Path="NWH.VehiclePhysics2.SetupWizard.csproj" />
+</Solution>
